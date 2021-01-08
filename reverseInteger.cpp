@@ -9,7 +9,7 @@ public:
         // pop the last digit off of x and push it to the back of the rev
         int rev = 0;
         while (x != 0){
-            //push operation:
+            //pop operation:
             int pop = x%10;
             x/=10;
 
